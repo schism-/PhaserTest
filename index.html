@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>hello phaser!</title>
+        <script src="phaser.min.js"></script>
+
+        <script src="js/boot.js"></script>
+        <script src="js/main_menu.js"></script>
+        <script src="js/map.js"></script>
+
+    </head>
+    <body>
+
+    <script type="text/javascript">
+
+    window.onload = function() {
+
+        var game = new Phaser.Game(800, 600, Phaser.CANVAS, '');
+
+        game.state.add("Boot",boot);
+        game.state.add("Preload",main_menu);
+        game.state.add("GameTitle",map);
+        game.state.start("Boot");
+
+    };
+
+    </script>
+    </body>
+</html>

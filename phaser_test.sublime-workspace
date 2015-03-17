@@ -1,0 +1,545 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"m",
+				"major_color"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"count",
+				"count_x"
+			],
+			[
+				"triangle_b",
+				"triangle_bottom_right"
+			],
+			[
+				"tr",
+				"triangle_up_right"
+			],
+			[
+				"y",
+				"y_r"
+			],
+			[
+				"x",
+				"x_r"
+			],
+			[
+				"tri",
+				"triangle_up_left"
+			],
+			[
+				"ma",
+				"major_color"
+			],
+			[
+				"stepd",
+				"step_idx"
+			],
+			[
+				"ret",
+				"ret_list"
+			],
+			[
+				"ste",
+				"step_idx"
+			],
+			[
+				"fi",
+				"filter_valid"
+			],
+			[
+				"fin",
+				"final_data_file"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"woo",
+				"woocommerce-breadcrumb"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"get_curre",
+				"get_current_user_id"
+			],
+			[
+				"sin",
+				"single_product_info"
+			],
+			[
+				"reg",
+				"reg_price"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"div",
+				"div"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"MA",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/christian/Sites/phaser_test/index.php",
+		"/Users/christian/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/20A0E0BC-6A1B-49FE-ACB4-969F6CFBD492/merge_autoload.txt",
+		"/Users/christian/Desktop/Ph.D./collab_unity/unity_git/Assembly-CSharp.csproj",
+		"/Users/christian/Desktop/Ph.D./RecBlend/build-git/bin/Debug/steps.txt",
+		"/Users/christian/Desktop/Ph.D./tgl/build.ninja",
+		"/Users/christian/Desktop/recblender.diff",
+		"/Users/christian/test_blender/blender/release/scripts/startup/bl_ui/space_view3d.py",
+		"/Users/christian/test_blender/blender/release/scripts/modules/bpy/ops.py",
+		"/Users/christian/test_blender/build/CMakeCache.txt",
+		"/Users/christian/test_blender/blender/source/user-config.py",
+		"/Users/christian/test_blender/build/Makefile",
+		"/Users/christian/blender/COPYING",
+		"/Users/christian/Desktop/Ph.D./test_blender/scripts/blend2obj.py",
+		"/Users/christian/Desktop/out/tests/02_quad.json",
+		"/Users/christian/Desktop/out/tests/01_sphere.json",
+		"/Users/christian/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/8F1CB8AF-0246-4D5A-9C63-F0874552C823/sculpt_stat_corrections.txt",
+		"/Users/christian/Desktop/Ph.D./sculptstat15/paper/fig_temporal.tex",
+		"/Users/christian/Desktop/elder 10",
+		"/Users/christian/Desktop/citazioni_stat",
+		"/Users/christian/Desktop/Densities/sage_flat_point_cloud.ply",
+		"/Users/christian/Desktop/Densities/alien_density.json",
+		"/Users/christian/Desktop/Densities/fighter_flat_point_cloud.ply",
+		"/Volumes/PART FAT/3ddata/ogre/steps.txt",
+		"/Volumes/PART FAT/3ddata/monster/steps.txt",
+		"/Volumes/PART FAT/3ddata/gargoyle/steps.txt",
+		"/Volumes/PART FAT/3ddata/sage/steps.txt",
+		"/Volumes/PART FAT/3ddata/merman/steps.txt",
+		"/Volumes/PART FAT/3ddata/man/steps.txt",
+		"/Volumes/PART FAT/3ddata/gorilla/steps.txt",
+		"/Volumes/PART FAT/3ddata/fighter/steps.txt",
+		"/Volumes/PART FAT/3ddata/explorer/steps.txt",
+		"/Volumes/PART FAT/3ddata/engineer/steps.txt",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis_final_data/ipython/explorer.csv",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis_final_data/complete/elder/elder.obj",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis_final_data/ipython/plotting_methods.py",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis_final_data/complete/engineer/final_data_3.json",
+		"/Users/christian/Desktop/final models/gargoyle.obj",
+		"/Library/Python/2.7/site-packages/sklearn/hmm.py",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis_final_data/complete/alien/alien_flattened_strokes_flipped.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/engineer/brush_type_new.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/engineer/brush_data.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/gargoyle/flattened_strokes.json",
+		"/Users/christian/Desktop/flattened brushes/explorer_flattened_strokes.json",
+		"/Users/christian/Desktop/flattened brushes/alien.ply",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/alien/flattened_strokes.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/monster/brush_data.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/elder/brush_data.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/alien/brush_data.json",
+		"/Users/christian/Desktop/Ph.D./meshedit/bin/xcode/Debug/00000",
+		"/Users/christian/Downloads/init_file",
+		"/Users/christian/Desktop/Ph.D./meshedit/bin/xcode/Debug/init_file",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/man/mesh_data.json",
+		"/Volumes/Part Mac/obj_smooth_normals_files/man/snap001580.obj",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/elder/brush_type_new.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/alien/brush_type_new.json",
+		"/Volumes/Part Mac/obj_smooth_normals_files/elf/snap000244.obj",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis_final_data/complete/monster/final_data_3.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis_final_data/ipython/data/bounding_spheres.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/elder/brush_type.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/elf/mesh_data.json",
+		"/Users/christian/Desktop/INDICATORI",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis_final_data/clustering/explorer/pc_radius.ply",
+		"/Users/christian/Desktop/asdad.ply",
+		"/Users/christian/Downloads/histogram_demo_features (1).py",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/step_json/elf_brush_type.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/step_json/explorer_brush_type.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/sage/brush_type.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/monster/steps.txt",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis_final_data/complete/monster/final_data.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/alien copy/distance_data.txt",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/alien/distance_data.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/alien copy/distance_data.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/monster/distance_data.json",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/gargoyle/diff_plot_data.json",
+		"/Users/christian/plotting_methods.py",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/monster/distance_data.txt",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/fighter/err.txt",
+		"/Volumes/Part Mac/obj_smooth_normals_files/man/snap000000.obj",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/alien/err.txt",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/monster/err.txt",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/elder/dist_data/step18",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/elder/dist_data/step1",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/alien/out.txt",
+		"/Users/christian/Desktop/cmd_mshlab",
+		"/Users/christian/Desktop/bbox_diag",
+		"/Users/christian/Desktop/distance.mlx",
+		"/Users/christian/Downloads/vcg-code-5492-trunk/vcglib/apps/metro/sample/monster/snap000060.obj.ply",
+		"/Users/christian/Downloads/vcg-code-5492-trunk/vcglib/apps/metro/sample/monster/snap000060_2.obj",
+		"/Users/christian/Downloads/vcg-code-5492-trunk/vcglib/apps/metro/sample/monster/test_dist.mlx",
+		"/Users/christian/Downloads/vcg-code-5492-trunk/vcglib/apps/metro/metro.pro",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/monster/feature_vector.json",
+		"/Users/christian/Downloads/trimesh2/libsrc/TriMesh_curvature.cc",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/monster/diff_plot_data.json",
+		"/Volumes/Part Mac/obj_smooth_normals_files/monster/snap000764.obj",
+		"/Volumes/Part Mac/obj_smooth_normals_files/monster/snap000200.obj",
+		"/Volumes/Part Mac/obj_smooth_normals_files/alien/snap000200.obj",
+		"/Volumes/Part Mac/obj_no_normals_files/gargoyle/snap000202.obj",
+		"/Volumes/Part Mac/obj_no_normals_files/engineer/snap000201.obj",
+		"/Volumes/Part Mac/obj2_files/engineer/snap000200.obj",
+		"/Volumes/Part Mac/obj2_files/elf/snap000200.obj",
+		"/Volumes/Part Mac/obj2_files/elder/snap000200.obj",
+		"/Volumes/Part Mac/obj2_files/alien/snap000200.obj",
+		"/Users/christian/Desktop/todo-today.md",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/monster/diffset_del_v.txt",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/ogre/diffset_del_v.txt",
+		"/Volumes/Part Mac/obj_false_files/ogre/snap000050.obj",
+		"/Volumes/Part Mac/ply_true_files/monster/snap000020.ply",
+		"/Volumes/Part Mac/ply_false_files/monster/snap000050.ply",
+		"/Volumes/Part Mac/obj2_files/monster/snap000127.obj",
+		"/Volumes/Part Mac/obj2_files/monster/snap000049.obj",
+		"/Volumes/Part Mac/obj3_files/monster/snap000050.obj",
+		"/Volumes/Part Mac/obj2_files/monster/snap000391.obj",
+		"/Volumes/Part Mac/obj2_files/monster/snap000061.obj",
+		"/Volumes/Part Mac/ply_files/monster/snap000000.ply",
+		"/Volumes/Part Mac/ply_files/monster/snap000020.ply",
+		"/Volumes/Part Mac/ply_files/monster/snap000021.ply",
+		"/Users/christian/Desktop/metrics_from_berger",
+		"/Users/christian/Desktop/son_eng",
+		"/Users/christian/Downloads/homework04 2/program02.py",
+		"/Users/christian/Downloads/homework04 2/program03.py",
+		"/Users/christian/Desktop/Ph.D./sculptanal-15/data/task02-alien/feature_vector.csv",
+		"/Users/christian/Desktop/frasi_son_eng",
+		"/Users/christian/Desktop/css son",
+		"/Users/christian/custom_notebook.css",
+		"/Users/christian/Desktop/Ph.D./meshedit/bin/xcode/Release/init_file",
+		"/Users/christian/Desktop/3ddata/task02-alien/steps.txt",
+		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/task02/steps.json",
+		"/Users/christian/Desktop/todo-sculpt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Users/christian/Desktop/Work/tipAround.me/wp-content/themes/TIP"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"WM_operator_pystring",
+			"redo",
+			"\\[[0-9][0-9]\\]",
+			"]",
+			" [",
+			"\\n",
+			"\\t",
+			"	",
+			"------ 2012.09.12",
+			"------ 2012.10.12",
+			"------ 2012.09.10",
+			"------ 2012.10.31",
+			"------ 2012.10.30",
+			"depre",
+			"f -",
+			" 1//",
+			"f 1//",
+			"//1 ",
+			"]",
+			"	",
+			"\"on",
+			"on_",
+			",",
+			"\\n\\n",
+			" ",
+			", ",
+			":\\n",
+			"\\t",
+			" ",
+			"(^(-)?[0-9]+\\.[0-9]+\\t\\t(-)?[0-9]+\\.[0-9]+\\t\\t(-)?[0-9]+\\.[0-9]+\\t\\t)",
+			"\\t",
+			" ",
+			"brush_select",
+			",",
+			"%",
+			"1665//",
+			" 8916",
+			" 891",
+			"891",
+			"], ",
+			"vn ",
+			"mode",
+			"brush_stroke",
+			" ",
+			"spec",
+			"upper",
+			"multi ",
+			"multi-",
+			"\\,[a-zA-Z]",
+			"\\)[a-zA-Z]",
+			")[a-zA-Z]",
+			"gl.",
+			"0 0.0000000000 0.0000000000\\n",
+			"14105295130590530",
+			"0 0.0000000000 0.0000000000\\n",
+			",",
+			" ",
+			"0 0.0000000000 0.0000000000\\n",
+			"0 0.0000000000 0.0000000000",
+			"\\n",
+			"14100161520618500",
+			"14100161520618487",
+			"14100163020617035",
+			"3840",
+			"3801",
+			"radial",
+			"\"936\":",
+			"\"time\":0\\},",
+			"\"time\":0},",
+			"</td>",
+			"<td>",
+			",",
+			"\"",
+			"\"(\\d)+\",",
+			"'",
+			"buy_bu",
+			".a_soli",
+			"offerte",
+			"login",
+			">>>",
+			"searchf",
+			"logout",
+			"button",
+			"feedb",
+			"logout",
+			"login",
+			"logout",
+			" .buy_button",
+			"get_product",
+			".offerta button[type=submit]",
+			".row_info .decimali",
+			"div.product div.coup_price, div.product div.how_many",
+			".row_price",
+			".hentry .single_product_info",
+			"div.coup_price",
+			"div.product div.coup_price",
+			"deci",
+			"div.product div.how_many",
+			"div.product div.coup_price, div.product div.how_many",
+			"coup",
+			"dis_pri",
+			"/*",
+			".related",
+			"dis_pr",
+			"row_inf",
+			"coup_p",
+			"interi",
+			"li.product .buy_button",
+			"\"op_sha\":",
+			"branch2",
+			"pippo/master",
+			"1db6ae5e95f47645a47f00d289bd8f4aa962294d",
+			"select_opposit",
+			"fea41426102dee546daf2784a8a841174a33414a",
+			"select_o",
+			"pluto"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"@ARTICLE{ilovesketch,\nAUTHOR = {",
+			",",
+			"\" : [",
+			"",
+			"\",\\n",
+			"",
+			"\\t\\t\\t\\t\\t\\",
+			"],",
+			", ",
+			"prefix + \"",
+			"gl_",
+			":1.0,",
+			":0.0,",
+			"\\n",
+			"",
+			",\\n",
+			", ",
+			"",
+			"\\t\\t",
+			"",
+			"\\t\\t",
+			"\\t",
+			", \\n",
+			"",
+			"], \\n",
+			"",
+			"\\n",
+			"",
+			".",
+			",",
+			"",
+			"\"time\":0\\},\\n",
+			"\"time\":0},\\n",
+			"</th>",
+			"<th>",
+			"\\t\\t",
+			",\\t\\t\\t",
+			",\\t",
+			",/t",
+			"",
+			"\"user_id\": \"pippo\",\\n\\t\\t\"op_sha\":",
+			"\"user_id\": \"pippo\",\\n\"op_sha\":",
+			"pippo"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.markdown":
+	{
+		"height": 118.0
+	},
+	"output.sftp":
+	{
+		"height": 160.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true
+}
