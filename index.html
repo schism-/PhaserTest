@@ -7,6 +7,7 @@
 
         <script src="js/boot.js"></script>
         <script src="js/main_menu.js"></script>
+        <script src="js/character.js"></script>
         <script src="js/map.js"></script>
 
     </head>
@@ -16,12 +17,17 @@
 
     window.onload = function() {
 
-        var game = new Phaser.Game(800, 600, Phaser.CANVAS, '');
+        var game = new Phaser.Game(800, 600, Phaser.AUTO, '');
 
-        game.state.add("Boot",boot);
-        game.state.add("Preload",main_menu);
-        game.state.add("GameTitle",map);
-        game.state.start("Boot");
+        var username = "";
+        var face = 0;
+
+        game.state.add("boot",boot);
+
+        game.state.add("main_menu",main_menu);
+        game.state.add("character",character);
+        game.state.add("map",map);
+        game.state.start("boot");
 
     };
 
