@@ -19,8 +19,9 @@
 
         var game = new Phaser.Game(800, 600, Phaser.AUTO, '');
 
-        var username = "";
-        var face = 0;
+        game.username = "";
+        game.face = 0;
+        game.level = 0;
 
         game.state.add("boot",boot);
 
