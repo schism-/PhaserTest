@@ -2,13 +2,16 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>hello phaser!</title>
+        <title>LIMEDU</title>
         <script src="phaser.min.js"></script>
 
         <script src="js/boot.js"></script>
+        <script src="js/preloader.js"></script>
         <script src="js/main_menu.js"></script>
         <script src="js/character.js"></script>
         <script src="js/map.js"></script>
+
+        <script src="js/labelButton.js"></script>
 
     </head>
     <body>
@@ -19,18 +22,8 @@
 
         var game = new Phaser.Game(800, 600, Phaser.AUTO, '');
 
-        game.username = "";
-        game.face = 0;
-        game.level = 10;
-
-        game.puzzle_diff = 0;
-        game.forme_diff = 0;
-        game.associazioni_diff = 0;
-        game.patente_diff = 0;
-        game.trivia_diff = 0;
-
         game.state.add("boot",boot);
-
+        game.state.add("preloader",preloader);
         game.state.add("main_menu",main_menu);
         game.state.add("character",character);
         game.state.add("map",map);

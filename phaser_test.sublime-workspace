@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"righ",
+				"right_pants"
+			],
+			[
+				"left",
+				"left_pants"
+			],
+			[
+				"right_",
+				"right_body"
+			],
+			[
+				"cen",
+				"center_y"
+			],
+			[
+				"userna",
+				"username_field"
+			],
+			[
+				"cent",
+				"center_y"
+			],
+			[
 				"m",
 				"major_color"
 			],
@@ -144,6 +168,21 @@
 	},
 	"file_history":
 	[
+		"/Users/christian/Sites/phaser_test/js/main_menu.js",
+		"/Users/christian/Sites/phaser_test/js/map.js",
+		"/Users/christian/Sites/phaser_test/js/preloader.js",
+		"/Users/christian/Sites/phaser_test/js/character.js",
+		"/Users/christian/Desktop/Ph.D./collab_unity/shared_unity_repo/diff.py",
+		"/Users/christian/Sites/phaser_test/index.html",
+		"/Users/christian/Sites/phaser_test/js/boot.js",
+		"/Users/christian/Sites/phaser_test/js/labelButton.js",
+		"/Users/christian/Sites/phaser_test/jigsaw/js/Preloader.js",
+		"/Users/christian/Sites/phaser_test/jigsaw/js/MainMenu.js",
+		"/Users/christian/Sites/phaser_test/jigsaw/js/Boot.js",
+		"/Users/christian/Sites/phaser_test/jigsaw/index.html",
+		"/Users/christian/Desktop/Work/tipAround.me/wp-content/themes/TIP/timthumb/cache/timthumb_int_e11288316cb65cb3da5069e04d480f3e.timthumb.txt",
+		"/Users/christian/Desktop/Ph.D./collab_unity/shared_unity_repo/Assets/init.unity",
+		"/Users/christian/Desktop/Ph.D./unity_uist/libgit2sharp/UpdateLibgit2ToSha.ps1",
 		"/Users/christian/Sites/phaser_test/index.php",
 		"/Users/christian/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/20A0E0BC-6A1B-49FE-ACB4-969F6CFBD492/merge_autoload.txt",
 		"/Users/christian/Desktop/Ph.D./collab_unity/unity_git/Assembly-CSharp.csproj",
@@ -256,22 +295,7 @@
 		"/Volumes/Part Mac/obj2_files/monster/snap000049.obj",
 		"/Volumes/Part Mac/obj3_files/monster/snap000050.obj",
 		"/Volumes/Part Mac/obj2_files/monster/snap000391.obj",
-		"/Volumes/Part Mac/obj2_files/monster/snap000061.obj",
-		"/Volumes/Part Mac/ply_files/monster/snap000000.ply",
-		"/Volumes/Part Mac/ply_files/monster/snap000020.ply",
-		"/Volumes/Part Mac/ply_files/monster/snap000021.ply",
-		"/Users/christian/Desktop/metrics_from_berger",
-		"/Users/christian/Desktop/son_eng",
-		"/Users/christian/Downloads/homework04 2/program02.py",
-		"/Users/christian/Downloads/homework04 2/program03.py",
-		"/Users/christian/Desktop/Ph.D./sculptanal-15/data/task02-alien/feature_vector.csv",
-		"/Users/christian/Desktop/frasi_son_eng",
-		"/Users/christian/Desktop/css son",
-		"/Users/christian/custom_notebook.css",
-		"/Users/christian/Desktop/Ph.D./meshedit/bin/xcode/Release/init_file",
-		"/Users/christian/Desktop/3ddata/task02-alien/steps.txt",
-		"/Users/christian/Desktop/Ph.D./sculptAnalysis/steps/task02/steps.json",
-		"/Users/christian/Desktop/todo-sculpt"
+		"/Volumes/Part Mac/obj2_files/monster/snap000061.obj"
 	],
 	"find":
 	{

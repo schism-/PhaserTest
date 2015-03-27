@@ -9,75 +9,108 @@ var character = function(game){
 
 character.prototype = {
     preload: function(){
-        this.game.load.image('face1', 'images/face1.png');
-        this.game.load.image('face2', 'images/face2.png');
-        this.game.load.image('face3', 'images/face3.png');
+        this.game.add.sprite(0, 0, 'main_menu_bg');
 
-        faces = ["face1", "face2", "face3"];
+        heads = ["face1", "face2", "face3"];
     },
     create: function(){
-        var style = { font: "32px Arial", fill: "#ffffff", align: "center" };
+        center_x = this.game.world.centerX;
+        center_y = this.game.world.centerY;
 
-        var insert_username_lbl = this.game.add.text(this.game.world.centerX, this.game.world.centerY/4, "Insert username", style);
-        insert_username_lbl.anchor.setTo(0.5, 0.5);
+        var graphics = this.game.add.graphics(0, 0);
+        // draw a rectangle
+        graphics.lineStyle(1, 0xDDDDDD, 0.5);
+        graphics.beginFill(0xDDDDDD, 0.5);
+        graphics.drawRect(180, 30, 220, 30);
+
+        style = { font: "30px Arial", fill: "#ffffff", align: "left" };
+
+        insert_username_lbl = this.game.add.text(30, 30, "Username:", style);
         insert_username_lbl.inputEnabled = true;
 
-        username_field = this.game.add.text(this.game.world.centerX, this.game.world.centerY/4 + 30, "", style);
-        username_field.anchor.setTo(0.5, 0.5);
+        style = { font: "30px Arial", fill: "#ffffff", align: "left" };
+        username_field = this.game.add.text(190, 30, "", style);
         username_field.inputEnabled = true;
 
         this.game.input.keyboard.addKeyCapture(Phaser.Keyboard.BACKSPACE);
         this.game.input.keyboard.addCallbacks(this, null, this.setUsername, this.setUsername);
 
-        button1 = this.game.add.button(this.game.world.centerX - 200, 300, 'buttonFL', this.faceLeft, this, 2, 1, 0);
-        button1.name = 'face_left';
-        button1.anchor.setTo(0.5, 0.5);
-        button1.width = 100;
-        button1.height = 100;
+        body_base = this.game.add.sprite(center_x, center_y, 'char-base');
+        body_base.anchor.setTo(0.5, 0.5);
 
-        button2 = this.game.add.button(this.game.world.centerX + 200, 300, 'buttonFR', this.faceRight, this, 2, 1, 0);
-        button2.name = 'face_right';
-        button2.anchor.setTo(0.5, 0.5);
-        button2.width = 100;
-        button2.height = 100;
+        hair_base = this.game.add.sprite(center_x, center_y - 110, 'char-hair-black');
+        hair_base.anchor.setTo(0.5, 0.5);
 
-        button3 = this.game.add.button(this.game.world.centerX, this.game.world.centerY + 200, 'buttonNext', this.startGame, this, 2, 1, 0);
-        button3.name = 'start_game';
-        button3.anchor.setTo(0.5, 0.5);
-        button3.width = 200;
-        button3.height = 100;
+        shirt_base = this.game.add.sprite(center_x, center_y + 76, 'char-shirt-red');
+        shirt_base.anchor.setTo(0.5, 0.5);
 
-        this.loadImage(current_face_idx);
+        legs_base = this.game.add.sprite(center_x, center_y + 125, 'char-pants-green');
+        legs_base.anchor.setTo(0.5, 0.5);
+        
+
+        left_head = this.game.add.button(center_x - 150, center_y - 100, 'char_button_left', this.updateChar, this, 1, 2, 0);
+        left_head.name = 'left_head';
+        left_head.anchor.setTo(0.5, 0.5);
+
+        left_body = this.game.add.button(center_x - 150, center_y + 60, 'char_button_left', this.updateChar, this, 1, 2, 0);
+        left_body.name = 'left_body';
+        left_body.anchor.setTo(0.5, 0.5);
+
+        left_pants = this.game.add.button(center_x - 150, center_y + 120, 'char_button_left', this.updateChar, this, 1, 2, 0);
+        left_pants.name = 'left_pants';
+        left_pants.anchor.setTo(0.5, 0.5);
+
+        right_head = this.game.add.button(center_x + 150, center_y - 100, 'char_button_right', this.updateChar, this, 1, 2, 0);
+        right_head.name = 'right_head';
+        right_head.anchor.setTo(0.5, 0.5);
+
+        right_body = this.game.add.button(center_x + 150, center_y + 60, 'char_button_right', this.updateChar, this, 1, 2, 0);
+        right_body.name = 'right_body';
+        right_body.anchor.setTo(0.5, 0.5);
+
+        right_pants = this.game.add.button(center_x + 150, center_y + 120, 'char_button_right', this.updateChar, this, 1, 2, 0);
+        right_pants.name = 'right_pants';
+        right_pants.anchor.setTo(0.5, 0.5);
+
+        start = this.game.add.button(center_x, center_y, 'start_button', this.startDown, this, 1, 2, 0);
+        start.name = 'start';
+        start.anchor.setTo(0.5, 0.5);
     },
     setUsername: function(event){
         if (event.keyCode == 8){
-            username_field.setText(username_field.text.slice(0, username_field.text.length - 1));
+            if (username_field.text.length > 0){
+                username_field.setText(username_field.text.slice(0, username_field.text.length - 1));
+            }         
         }
         else{
-            username_field.setText(username_field.text + String.fromCharCode(event.keyCode));
+            if (username_field.text.length < 10){
+                username_field.setText(username_field.text + String.fromCharCode(event.keyCode));
+            }
         }
     },
-    faceLeft: function(){
-        current_face_idx--;
-        if (current_face_idx < 0)
-            current_face_idx = faces.length - 1;
-        this.loadImage(current_face_idx);
+    updateChar: function(button){
+        if (button.name == "left_face"){
+
+        }
+        else if (button.name == "right_face"){
+
+        }
+        else if (button.name == "left_body"){
+
+        }
+        else if (button.name == "right_body"){
+
+        }
+        else if (button.name == "left_pants"){
+
+        }
+        else if (button.name == "right_pants"){
+
+        }
     },
-    faceRight: function(){
-        current_face_idx++;
-        if (current_face_idx >= faces.length)
-            current_face_idx = 0;
-        this.loadImage(current_face_idx);
-    },
-    loadImage: function(idx){
-        if (current_face != -1)
-            current_face.destroy();
-        current_face = this.game.add.sprite(this.game.world.centerX, this.game.world.centerY, faces[idx]);
-        current_face.anchor.setTo(0.5, 0.5);
-    },
-    startGame: function(){
+    startDown: function(button){
         this.game.username = username_field.text;
         this.game.face = current_face_idx;
-        this.game.state.start("map");
-    }
+        this.game.state.start("character");
+    },
 }

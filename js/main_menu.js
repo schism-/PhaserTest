@@ -1,86 +1,57 @@
 var main_menu = function(game){
-    menu_voices = [];
-    active_voice = 0;
-    lastTime = 0;
-	console.log("%cStarting my awesome main menu", "color:white; background:red");
+    console.log("%cStarting my awesome main menu", "color:white; background:red");
+
+    game.menu_voices = [];
+    game.active_voice = 0;
+    game.lastTime = 0;
+    game.main_menu_bg = null;
 };
 
 main_menu.prototype = {
 	preload: function(){
+        center_x = this.game.world.centerX;
+        center_y = this.game.world.centerY;
 
+        this.game.main_menu_bg = this.game.add.sprite(0, 0, 'main_menu_bg');
+
+        this.game.logo = this.game.add.sprite(center_x, center_y - 200, 'logo');
+        this.game.logo.anchor.setTo(0.5, 0.5);
+
+        start = this.game.add.button(center_x, center_y, 'start_button', this.pressButton, this, 1, 2, 0);
+        start.name = 'start';
+        start.anchor.setTo(0.5, 0.5);
+        start.events.onInputDown.add(this.onDown, this);
+
+        cont = this.game.add.button(center_x, center_y + 75, 'cont_button', this.pressButton, this, 1, 2, 0);
+        cont.name = 'continue';
+        cont.anchor.setTo(0.5, 0.5);
+        cont.events.onInputDown.add(this.onDown, this);
+
+        options = this.game.add.button(center_x, center_y + 150, 'options_button', this.pressButton, this, 1, 2, 0);
+        options.name = 'options';
+        options.anchor.setTo(0.5, 0.5);
+        options.events.onInputDown.add(this.onDown, this);
 	},
   	create: function(){
-		var style = { font: "32px Arial", fill: "#ffffff", align: "center" };
-
-        var title = this.game.add.text(this.game.world.centerX, this.game.world.centerY - this.game.world.centerY/2, "- main menu -", style);
-        title.anchor.setTo(0.5, 0.5);
-        title.inputEnabled = true;
-
-        var padding = 50;
-
-        var start = this.game.add.text(this.game.world.centerX, this.game.world.centerY - this.game.world.centerY/2 + padding, "start", style);
-        start.anchor.setTo(0.5, 0.5);
-        start.inputEnabled = true;
-
-        var cont = this.game.add.text(this.game.world.centerX, this.game.world.centerY - this.game.world.centerY/2 + 2*padding, "continue", style);
-        cont.anchor.setTo(0.5, 0.5);
-        cont.inputEnabled = true;
-
-        var options = this.game.add.text(this.game.world.centerX, this.game.world.centerY - this.game.world.centerY/2 + 3*padding, "options", style);
-        options.anchor.setTo(0.5, 0.5);
-        options.inputEnabled = true;
-
-        menu_voices = [start, cont, options];
-
-        this.activateBtn(active_voice);
+        
 	},
     update: function(){
-        if (this.game.input.keyboard.isDown(Phaser.Keyboard.DOWN) && (this.game.time.time > lastTime + 300)){
-            lastTime = this.game.time.time;
-            this.voiceSelection(true);
+        
+    },
+    pressButton: function(button){
+        if (button.name == "start"){
+            this.game.state.start("character");
         }
+        else if (button.name == "continue"){
 
-        if (this.game.input.keyboard.isDown(Phaser.Keyboard.UP) && (this.game.time.time > lastTime + 300)){
-            lastTime = this.game.time.time;
-            this.voiceSelection(false);
         }
+        else if (button.name == "options"){
 
-        if(this.game.input.keyboard.isDown(Phaser.Keyboard.SPACEBAR)){
-            if (active_voice == 0){
-                //start
-                this.game.state.start("character");
-            }
-            else if (active_voice == 1){
-                //continue
-            }
-            else{
-                //options
-            }
         }
     },
-    activateBtn: function(btn_idx){
-        menu_voices[btn_idx].setStyle({fill: "#ff11aa"});
-        menu_voices[btn_idx].setText("*** " + menu_voices[btn_idx].text + " ***");
-    },
-    deactivateBtn: function(btn_idx){
-        menu_voices[btn_idx].setStyle({fill: "#ffffff"});
-        menu_voices[btn_idx].setText(menu_voices[btn_idx].text.slice(4, menu_voices[btn_idx].text.length - 4));
-    },
-    voiceSelection: function(flag){
-        if (flag){
-            this.deactivateBtn(active_voice);
-            active_voice++;
-            if (active_voice >= menu_voices.length)
-                active_voice = 0;
-            this.activateBtn(active_voice);
-        }
-        else{
-            this.deactivateBtn(active_voice);
-            active_voice--;
-            if (active_voice < 0)
-                active_voice = menu_voices.length - 1;
-            this.activateBtn(active_voice);
-        }
-    },
-
+    onDown: function(button) {
+        this.game.add.tween(button.scale).to({x: 0.9, y: 0.9}, 100, Phaser.Easing.Cubic.Out, true);
+        this.game.add.tween(button.scale).to({x: 1.05, y: 1.05}, 100, Phaser.Easing.Cubic.Out, true, 100);
+        this.game.add.tween(button.scale).to({x: 1.0, y: 1.0}, 100, Phaser.Easing.Cubic.Out, true, 200);
+    }
 }
