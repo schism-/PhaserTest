@@ -10,6 +10,8 @@
         <script src="js/main_menu.js"></script>
         <script src="js/character.js"></script>
         <script src="js/map.js"></script>
+        <script src="js/preloader_puzzle.js"></script>
+        <script src="js/puzzle.js"></script>
 
         <script src="js/labelButton.js"></script>
 
@@ -27,6 +29,9 @@
         game.state.add("main_menu",main_menu);
         game.state.add("character",character);
         game.state.add("map",map);
+        game.state.add("preloader_puzzle",preloader_puzzle);
+        game.state.add("puzzle",puzzle);
+
         game.state.start("boot");
 
     };

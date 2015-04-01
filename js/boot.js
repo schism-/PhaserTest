@@ -14,7 +14,11 @@ boot.prototype = {
     //this.game.scale.pageAlignHorizontally = true;
 
     this.game.username = "";
-    this.game.face = 0;
+
+    this.game.current_head_idx = 0;
+    this.game.current_shirt_idx = 0;
+    this.game.current_pants_idx = 0;
+
     this.game.level = 10;
 
     this.game.puzzle_diff = 0;
